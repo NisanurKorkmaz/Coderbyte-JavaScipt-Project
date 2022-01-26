@@ -20,9 +20,9 @@ function ParallelSums(arr) {
     for(c=0 ; c<a1.length ; c++){
         t1=t1+a1[c]
     }
-    //console.log("t1 :"+t1)
+    
     if(t1==yarisi){
-      //console.log(a1,a2)
+      
       let a="";
       for(k=0 ; k<a1.length ; k++){
         a=a+a1[k]+","
@@ -52,5 +52,5 @@ function ParallelSums(arr) {
 
 }
    
-// keep this function call here 
+
 console.log(ParallelSums(readline()));
