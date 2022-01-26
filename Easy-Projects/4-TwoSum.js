@@ -31,5 +31,5 @@ function TwoSum(arr) {
   }
 }
    
-// keep this function call here 
+
 console.log(TwoSum(readline()));
